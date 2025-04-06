@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Discover the best travel agency website to book your dream trip. Enjoy luxury travel experiences that offer true value for your money." />
+    <title>Travel Agency Page</title>
+  </head>
+  <body>
+    <h1>Travel UAE</h1>
+    <p>Discover the UAE: a land of golden dunes, luxury escapes, and unforgettable adventures.</p>
+    <h2>Packages</h2>
+    <p>We offer the best trips with true value for your money — from the iconic Burj Khalifa to the stunning Marina Bay, our packages include all must-visit destinations that make your journey truly worthwhile.</p>
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+    <h2>Top Itineraries</h2>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Italy Image" />
+      </a>
+      <figcaption>Explore the brilliant architecture from the past
+      </figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="heavenly mountains" />
+      </a>
+      <figcaption>Feel and witness the greatness</figcaption>
+    </figure>
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank">
+          <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Ocean" />
+        </a>
+        <figcaption>Sky looking endless ocean like space</figcaption>
+    </figure>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+Full Stack developer
+day 1 :
+
+spaced repitation: Better is coding 30 min everyday rather than 3.5 hours
+interleaving practise: Rather than focusing on one concepts take all concepts parts than one circle 
+
+active recall : Illution of competetance, remember and actively reacall everything through quiz and practises
+
+Routine is your friend
+
+promodore technique: timer 25 min code and 5 min break
+
+
+What Is HTML, and What Role Does It Play on the Web?
+
+HTML, which stands for Hypertext Markup Language, is a markup language for creating web pages. When you visit a website and see content like paragraphs, headings, links, images, and videos; that's HTML. HTML represents the content and structure of a webpage through the use of elements. Here's an example of a paragraph element:
+
+<p> </p>
+
+Most elements will have an opening tag and a closing tag. Sometimes those tags are referred to as start and end tags. In between those two tags, you will have the content. This content can be text or other HTML elements. Both opening and closing tags start with a left angle bracket (<), and end with a right angle bracket (>), with the tag name placed between these angle brackets. Here is a closer look at just the opening and closing paragraph tags:
+
+What distinguishes an opening tag from a closing tag is the forward slash (/) placed immediately after the left angle bracket in a closing tag. Some HTML elements do not have a closing tag. These are known as void elements. Here is an example of an image element which is a void element:
+
+
+An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element or specify how the element should behave. Here is the basic syntax for an attribute:
+
+The attribute name is followed by an equal sign (=) and a value in quotes. The value can be a string or a number, depending on the attribute.
+
+In the following example, we have an input element with the type attribute set to checkbox. Inputs are used to collect data from users, and the type attribute specifies the type of input. In this case, this input is a checkbox. You will learn more about how inputs work in the upcoming lectures. The checked attribute is used to specify that the checkbox should be checked by default. The checked attribute does not require a value. If it is present, the checkbox will be checked by default. If the attribute is not present, the checkbox will be unchecked. This is known as a boolean attribute.
+
+The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+
+When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+
+The figure element represents self-contained content and will allow you to associate an image with a caption.
+
+A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+
+The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+
+ The html element is the root element of an HTML page and wraps all content on the page.
+
+All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+<!DOCTYPE html> tells browsers that the document is an HTML5 document which is the latest version of HTML.
+
+
+The src attribute is used here to specify the location for that external JavaScript file. src stands for "source". The reason why it is not encouraged to place all of your JavaScript inside the HTML document is because of separation of concerns. Separation of concerns is a design principle where you separate your programs into distinct sections and have each section address a separate concern. In this case, we want to separate our JavaScript code from our HTML code.
