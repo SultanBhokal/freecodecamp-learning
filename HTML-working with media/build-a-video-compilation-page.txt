@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Web development</h1>
+        <p>It is divided into two main parts: front-end and back-end development. Front-end development focuses on the visual and interactive aspects of a website or application. It involves designing the user interface (UI), enhancing user experience (UX), and managing media elements. The goal is to create a user-friendly interface, typically using HTML, CSS, and JavaScript. Back-end development, on the other hand, deals with the server side. It involves implementing business logic, managing databases, and delivering raw or processed data—including real-time information—to the front end.</p>
+
+        <section>
+            <h2>
+                Frontend Roadmap: Learn HTML
+            </h2>
+            <p>
+                The following video will cover all the basics of HTML
+            </p>
+            <iframe src="https://www.youtube.com/embed/kUMe1FH4CHE" title="Learn HTML" height="560" width="315"></iframe>
+        </section>
+        <section>
+            <h2>Frontend Roadmap: Learn CSS</h2>
+            <p>
+                The following video will cover everything you need to know about CSS.
+            </p>
+            <iframe src="https://www.youtube.com/embed/OXGznpKZ_sA" title="Learn CSS" height="560" width="315"></iframe>
+        </section>
+        <section>
+            <h2>Frontend Roadmap: JavaScript</h2>
+            <p>
+                Last but not least, JavaScript. The video will clear whats JavaScript and all concepts required.
+            </p>
+            <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" title="Learn JAVASCRIPT" height="560" width="315"></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
