@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for your time and efforts</p>
+    </header>
+
+    <main>
+      <form id="survey-form" method="POST" action="www.freecodecamp.org" >
+        <fieldset>
+          <legend>Personel information</legend>
+          <label for="name" id="name-label">Name: </label>
+          <input type="text" id="name" name="name" placeholder="Ex. Cm Punk" required >
+          <label for="email" id="email-label">
+            Email: 
+            </label>
+          <input type="email" required name="email" id="email" placeholder="punk@wwe.com" >
+          <label for="number" id="number-label">No: </label>
+          <input type="number" required min="1" max="10" id="number" placeholder="1234567890" >
+        </fieldset>
+        <fieldset>
+          <legend>Singers</legend>
+          <label for="dropdown" id="dropdown-label">Which singer is best</label>
+          <select id="dropdown" name="dropdown">
+            <option value="karan-aujla">Karan Aujla</option>
+            <option value="shubh" selected>Shubh</option>
+          </select>
+
+        </fieldset>
+        <fieldset>
+          <legend>In which genre the singer is best</legend>
+          <label for="bars-op" id="bars-label">Bars</label>
+          <input type="radio" id="bars-op" name="genre" value="bars">
+          <label for="rap-op" id="rap-label">Rap</label>
+          <input type="radio" id="rap-op" name="genre" value="rap">
+        </fieldset>
+        <fieldset>
+          <legend>Select the songs you like most!</legend>
+           <label>
+      <input type="checkbox" name="songs" value="52 bars">
+      52 Bars
+    </label>
+
+    <label>
+      <input type="checkbox" name="songs" value="on top">
+      On Top
+    </label>
+
+    <label>
+      <input type="checkbox" name="songs" value="softly">
+      Softly
+    </label>
+
+    <label>
+      <input type="checkbox" name="songs" value="still rollin">
+      Still Rollin
+    </label>
+        </fieldset>
+        <label for="comments" id="comments-label">Comments (optional)</label>
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+        <button type="submit" id="submit">Submit</button
+      </form>
+    </main>
+
+  </body>
+</html>
